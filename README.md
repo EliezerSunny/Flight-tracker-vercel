@@ -1,6 +1,7 @@
 Flight Tracker Application
 
 This is a simple Flight Tracker web application built using Flask. The app allows users to track flights in real-time, providing departure/arrival information, flight status, and a map displaying flight paths. The app uses APIs to fetch flight data and geographical data for airport locations. Example of number: DL202, UA303, AA123 ...
+Live demo https://flight-tracker-vercel-eliezersunny-eliezersunnys-projects.vercel.app/
 
 Features
 
@@ -34,9 +35,11 @@ cd Flight-tracker-vercel
 
 2. Set up a Virtual Environment (Optional but recommended):
 
+```bash
 # For Windows
 python -m venv venv
 .\api\Scripts\activate
+```
 
 # For MacOS/Linux
 python3 -m venv venv
@@ -105,7 +108,7 @@ AviationStack API Key: Replace API_KEY with your actual API key from AviationSta
 OpenCage API Key: Replace OPENCAGE_API_KEY with your OpenCage API key from OpenCage.
 
 
-Project Structure
+```Project Structure
 
 flight-tracker/
 ├── api/
@@ -117,6 +120,7 @@ flight-tracker/
 ├── requirements.txt   # List of dependencies
 ├── vercel.json        # Vercel configuration
 └── README.md          # Project documentation
+```
 
 Dependencies
 
